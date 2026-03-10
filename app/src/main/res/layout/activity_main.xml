@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:clickable="true"
+    android:focusable="true">
 
     <Button
         android:id="@+id/btn_video"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Vídeo"
+        android:text="Vídeo Local"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_video_web"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Vídeo Web"
         android:layout_marginBottom="20dp" />
 
     <Button
