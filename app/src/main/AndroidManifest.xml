@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_video">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_piano"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

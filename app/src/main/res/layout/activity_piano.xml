@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <Button android:id="@+id/btn_do" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="DO" android:layout_margin="4dp"/>
+    <Button android:id="@+id/btn_re" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="RE" android:layout_margin="4dp"/>
+    <Button android:id="@+id/btn_mi" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="MI" android:layout_margin="4dp"/>
+    <Button android:id="@+id/btn_fa" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="FA" android:layout_margin="4dp"/>
+    <Button android:id="@+id/btn_sol" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="SOL" android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/btn_enrera_piano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrera"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
